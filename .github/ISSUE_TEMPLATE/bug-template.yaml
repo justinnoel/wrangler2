@@ -2,6 +2,7 @@ name: "\U0001F41B Bug Report"
 description: Report an issue or possible bug
 title: "\U0001F41B BUG:"
 labels: ["bug"]
+
 body:
   - type: markdown
     attributes:
@@ -37,6 +38,6 @@ body:
   - type: input
     attributes:
       label: Link to Minimal Reproducible Example
-      placeholder: ''
+      placeholder: 'https://...'
     validations:
       required: false
